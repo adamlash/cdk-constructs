@@ -1,13 +1,12 @@
 {
-  "name": "aws-ecs-fargatecluster",
-  "version": "0.0.1",
+  "name": "@alash-cdk-constructs/aws-test-helloworld",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "test": "jest",
-    "lint": "eslint . --ext .ts"
+    "test": "jest"
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.32.2",
