@@ -24,5 +24,6 @@
     "@aws-cdk/aws-sns-subscriptions": "1.32.2",
     "@aws-cdk/aws-sqs": "1.32.2",
     "@aws-cdk/core": "1.32.2"
-  }
+  },
+  "gitHead": "f9b43a6976f87c122fe7fc2c48c7763276230935"
 }
