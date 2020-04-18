@@ -3,7 +3,7 @@ import * as subs from '@aws-cdk/aws-sns-subscriptions';
 import * as sqs from '@aws-cdk/aws-sqs';
 import * as cdk from '@aws-cdk/core';
 
-export interface AwsTestHelloworldProps {
+export interface AlashTestHelloworldProps {
   /**
    * The visibility timeout to be configured on the SQS Queue, in seconds.
    *
@@ -12,11 +12,11 @@ export interface AwsTestHelloworldProps {
   visibilityTimeout?: cdk.Duration;
 }
 
-export class AwsTestHelloworld extends cdk.Construct {
+export class AlashTestHelloworld extends cdk.Construct {
   /** @returns the ARN of the SQS queue */
   public readonly queueArn: string;
 
-  constructor(scope: cdk.Construct, id: string, props: AwsTestHelloworldProps = {}) {
+  constructor(scope: cdk.Construct, id: string, props: AlashTestHelloworldProps = {}) {
     super(scope, id);
 
     const queue = new sqs.Queue(this, 'AwsTestHelloworldQueue', {
