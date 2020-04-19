@@ -1,6 +1,6 @@
 {
   "name": "@alash-cdk-constructs/aws-test-helloworld",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -25,5 +25,5 @@
     "@aws-cdk/aws-sqs": "1.32.2",
     "@aws-cdk/core": "1.32.2"
   },
-  "gitHead": "66adb1b5cd80e7bd10300f83794db45e5d045843"
+  "gitHead": "492dab252981180178cf3e90344e487b65ced97e"
 }
