@@ -1,5 +1,5 @@
 {
-  "name": "aws-test-hitcounter",
+  "name": "@alash-cdk-constructs/aws-test-hitcounter",
   "version": "0.1.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
