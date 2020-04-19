@@ -1,6 +1,6 @@
 {
   "name": "@alash-cdk-constructs/aws-test-hitcounter",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -26,5 +26,5 @@
     "@aws-cdk/aws-sqs": "1.32.2",
     "@aws-cdk/core": "1.32.2"
   },
-  "gitHead": "492dab252981180178cf3e90344e487b65ced97e"
+  "gitHead": "e6bb7df6fe1378958cdc9bf74940e292bcf420c1"
 }
